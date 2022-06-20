@@ -1,0 +1,64 @@
+{
+  "name": "backend",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js --trace-warnings",
+    "start": "ENV_SILENT=true node server.js",
+    "test": "node ace test",
+    "testa": "adonis test"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "Unimed Varginha Cooperativa de Trabalho Médico",
+  "license": "LICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/antl": "^2.0.7",
+    "@adonisjs/auth": "^3.1.0",
+    "@adonisjs/bodyparser": "2.0.9",
+    "@adonisjs/cli": "^4.0.13",
+    "@adonisjs/cors": "^1.0.7",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.13",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "6.3.0",
+    "@adonisjs/mail": "^3.0.10",
+    "@adonisjs/redis": "2.0.7",
+    "@adonisjs/validator": "^5.0.6",
+    "@adonisjs/vow": "^1.0.17",
+    "@adonisjs/websocket": "^1.0.12",
+    "@rocketseat/adonis-bull": "^0.3.0",
+    "adonis-acl": "^1.1.1",
+    "adonis-kue": "^5.0.1",
+    "date-fns": "^2.13.0",
+    "generate-password": "^1.5.1",
+    "lodash": "^4.17.21",
+    "mssql": "6.2.0",
+    "mysql": "^2.18.1",
+    "openssl": "^1.1.0",
+    "pem": "^1.14.4",
+    "pg": "^8.1.0",
+    "uuid": "^7.0.2",
+    "yarn": "^1.22.18",
+    "youch": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "sqlite3": "^5.0.2"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
